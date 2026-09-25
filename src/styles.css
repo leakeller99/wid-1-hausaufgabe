@@ -1,3 +1,90 @@
 .App {
   font-family: sans-serif;
 }
+/* Überschrift a */
+.titel {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 32px;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 5px;
+}
+
+/* Überschrift Unterkapitel */
+.unter-titel {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 24px;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+/* Container b */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Spalte Text c */
+.text-spalte {
+  width: 60%;
+  padding-right: 20px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Spalte Box */
+.box-spalte {
+  width: 40%;
+}
+
+/* box d */
+.box {
+  border: 1px solid #d5d8db;
+  background-color: #f7f8f9;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Überschrift Box */
+.box-titel {
+  font-size: 18px;
+  text-align: center;
+  background-color: #e9ebef;
+  margin: 0px;
+  padding: 5px;
+}
+
+/* Bild e */
+.bild {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Tabelle f */
+.zeile {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+/* linke Spalte */
+.links {
+  width: 40%;
+  font-weight: bold;
+}
+
+/* rechte Spalte */
+.rechts {
+  width: 60%;
+}
+
+/* blaue Links f */
+a {
+  color: #4d68ce;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
